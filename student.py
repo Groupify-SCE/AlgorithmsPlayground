@@ -12,6 +12,7 @@ class Student:
             - preferences: רשימת העדפות (ברירת מחדל: רשימה ריקה).
             - criteria: רשימת קריטריונים לחישוב ציון (ברירת מחדל: רשימה ריקה).
         """
+        print(student_data)
         self.id = student_data.get("id")
         self.name = student_data.get("name")
         self.preferences = student_data.get("preferences", [])  
