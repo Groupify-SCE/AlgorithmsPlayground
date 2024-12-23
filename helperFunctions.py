@@ -1,6 +1,7 @@
 import random
 from student import Student
 from typing import List
+from tabulate import tabulate
 
 def generate_random_student_list(amount: int, criteria: List[dict]) -> List[Student]:
     """
@@ -70,3 +71,17 @@ def generate_criteria_list(criteria_definitions: List[dict]) -> List[dict]:
         criteria_list.append({"name": name, "type": criteria_type, "value": value})
     
     return criteria_list
+
+
+def print_students_table(students: List[Student]):
+    """
+    Prints a table of student details.
+
+    :param students: A list of student objects.
+    """
+    table_data = [
+        [student.id, ', '.join(map(str, student.preferences)), f"{student.get_score():.2f}"]
+        for student in students
+    ]
+    headers = ["ID", "Preferences", "Score"]
+    print(tabulate(table_data, headers, tablefmt="grid"))
