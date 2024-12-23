@@ -1,4 +1,4 @@
-from helperFunctions import generate_random_student_list, print_students_table
+from utils.helperFunctions import generate_random_student_list, print_students_table
 
 AMOUNT_OF_STUDENTS = 15
 CRITERIA_LIST = [{"name": "GPA", "type": "0-100"}]
