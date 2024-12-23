@@ -1,5 +1,5 @@
 import random
-from student import Student
+from utils.student import Student
 from typing import List
 from tabulate import tabulate
 
