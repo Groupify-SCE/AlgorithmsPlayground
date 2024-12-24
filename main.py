@@ -1,4 +1,4 @@
-from utils.helperFunctions import generate_random_student_list, print_students_table
+from utils.helperFunctions import generate_random_student_list, generate_students_json, print_students_table
 from Genetic.StandardGenetic import genetic_algorithm
 from Genetic.PreferencesGenetic import genetic_algorithm_with_preferences
 
@@ -38,3 +38,4 @@ def test_preferences_genetic():
 if __name__ == "__main__":
     students = generate_random_student_list(AMOUNT_OF_STUDENTS, CRITERIA_LIST)
     print_students_table(students)
+    generate_students_json(num_students=10, num_criteria=2)
