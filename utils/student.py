@@ -44,4 +44,5 @@ class Student:
 
         :return: מחרוזת המייצגת את האובייקט.
         """
+        return f"{self.id}"
         return f"Student(*{self.id}*, {self.preferences}, {self.get_score()})"

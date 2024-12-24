@@ -6,19 +6,50 @@ from utils.student import Student
 
 def initialize_groups(students: List[Student], num_groups: int) -> List[List[Student]]:
     """
-    יוצר קבוצות התחלתיות
+    הערה מקורית: יוצר קבוצות התחלתיות
+    מה הוספנו? לא ביצענו באופן אקראי לחלוטין, אנחנו מתאימים תלמידים לפי התאמות אישיות
     """
-    random.shuffle(students)
+    # ניצור את הקבוצות ריקות
     groups = [[] for _ in range(num_groups)]
-    for i, student in enumerate(students):
-        groups[i % num_groups].append(student)
+    # נשמור תלמידים שהכנסנו לקבוצה
+    assigned_students = set()
+
+    # נחשב את הגודל המקסימלי של כל קבוצה
+    max_group_size = len(students) // num_groups + (1 if len(students) % num_groups != 0 else 0)
+
+    # נרוץ על כל תלמיד, ננסה להכניס אותו לקבוצה רק אם יש לו את אחת מהעדפות שלו בקבוצה
+    # ואם הקבוצה לא עברה את הגודל המקסימלי
+    for student in students:
+        for group in groups:
+            if len(group) < max_group_size and any(preference in [s.id for s in group] for preference in student.preferences):
+                group.append(student)
+                assigned_students.add(student.id)
+                break
+
+        # אם התלמיד לא הוכנס לאף קבוצה, נכניס אותו לקבוצה הכי קטנה (אם היא לא מלאה)
+        if student.id not in assigned_students:
+            smallest_group = min(groups, key=len)
+            if len(smallest_group) < max_group_size:
+                smallest_group.append(student)
+                assigned_students.add(student.id)
+
+    # נרוץ על התלמידים שעוד לא הוכנסו לקבוצות, כל אחד מהם בתורו נכניס לקבוצה הקטנה ביותר (אם היא לא מלאה)
+    remaining_students = [student for student in students if student.id not in assigned_students]
+    for student in remaining_students:
+        for group in groups:
+            if len(group) < max_group_size:
+                group.append(student)
+                break
+
     return groups
 
 def calculate_diversity(groups: List[List[Student]]) -> float:
     """
-    פונקציית חישוב הגיוון של תוצאה
+    הערה מקורית: פונקציית חישוב הגיוון של תוצאה
+    מה הוספנו? על כל תלמיד שבקבוצה עם לפחות אחת מהעדפות שלו הוספנו נקודה לתוצאה
     """
     group_diversities = []
+    preference_score = 0
 
     for group in groups:
         scores = [student.get_score() for student in group]
@@ -28,14 +59,19 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
             diversity = 0  # אין גיוון בקבוצה עם תלמיד אחד
         group_diversities.append(diversity)
 
+        # נרוץ על כל התלמידים בקבוצה, נבדוק אם הוא עם לפחות העדפה אחת שלו. אם כן, נוסיף נקודה לציון
+        for student in group:
+            if any(preference in [s.id for s in group] for preference in student.preferences):
+                preference_score += 1
+
     # ממוצע הגיוון בקבוצות
     mean_diversity = sum(group_diversities) / len(group_diversities)
 
     # שונות בין הגיוונים בקבוצות (עונש על חוסר אחידות)
     diversity_variance = statistics.stdev(group_diversities) if len(group_diversities) > 1 else 0
 
-    # ניקוד כולל: ממוצע הגיוון - שונות בין הקבוצות (אנחנו רוצים שונות נמוכה)
-    total_score = mean_diversity - diversity_variance
+    # ניקוד כולל: ממוצע הגיוון - שונות בין הקבוצות ונוסיף את ניקוד על ההתאמה האישית (אנחנו רוצים שונות נמוכה)
+    total_score = mean_diversity + preference_score - diversity_variance
     return total_score
 
 def generate_initial_population(students: List[Student], num_groups: int, population_size: int) -> List[List[List[Student]]]:
@@ -135,7 +171,7 @@ def update_population(population: List[List[List[Student]]], fitness_scores: Lis
         population[worst_index] = child
         fitness_scores[worst_index] = child_fitness
 
-def genetic_algorithm(students: List[Student], num_groups: int, population_size: int, generations: int, mutation_rate: float):
+def genetic_algorithm_with_preferences(students: List[Student], num_groups: int, population_size: int, generations: int, mutation_rate: float):
     # יצירת אוכלוסייה ראשונית
     population = generate_initial_population(students, num_groups, population_size)
     fitness_scores = calculate_population_fitness(population)
