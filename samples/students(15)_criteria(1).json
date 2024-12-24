@@ -1,0 +1,257 @@
+[
+    {
+        "id": 1,
+        "name": "Student_1",
+        "preferences": [
+            13,
+            3,
+            5,
+            7
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 46.83
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Student_2",
+        "preferences": [
+            15,
+            12,
+            14,
+            4
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 42.81
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Student_3",
+        "preferences": [
+            6,
+            14,
+            4,
+            2
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.6
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Student_4",
+        "preferences": [
+            8,
+            7,
+            12,
+            13
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 82.21
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Student_5",
+        "preferences": [
+            2,
+            14,
+            6,
+            13
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 13.65
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Student_6",
+        "preferences": [
+            11,
+            3,
+            8,
+            9
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 79.12
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Student_7",
+        "preferences": [
+            10,
+            11,
+            9,
+            1
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 27.85
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Student_8",
+        "preferences": [
+            6,
+            12,
+            4,
+            10
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 80.09
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Student_9",
+        "preferences": [
+            15,
+            1,
+            7,
+            10
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 7.75
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Student_10",
+        "preferences": [
+            4,
+            6,
+            12,
+            9
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 86.32
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Student_11",
+        "preferences": [
+            12,
+            9,
+            3,
+            7
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 67.04
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Student_12",
+        "preferences": [
+            10,
+            13,
+            5,
+            2
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 48.08
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Student_13",
+        "preferences": [
+            2,
+            15,
+            12,
+            11
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 3.87
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Student_14",
+        "preferences": [
+            11,
+            9,
+            8,
+            6
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 63.09
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Student_15",
+        "preferences": [
+            3,
+            7,
+            8,
+            1
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 2.92
+            }
+        ]
+    }
+]

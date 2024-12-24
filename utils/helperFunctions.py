@@ -59,7 +59,6 @@ def generate_criteria_list(criteria_definitions: List[dict]) -> List[dict]:
     
     return criteria_list
 
-
 def print_students_table(students: List[Student]):
     """
     מדפיס טבלה של התלמידים
@@ -76,26 +75,23 @@ def generate_students_json(file_name: str = None, num_students: int = 10, num_cr
     מגריל קובץ גייסון עם פרטי תלמידים
     """
     if not file_name:
-        file_name = f"students({num_students})_criteria({num_criteria}"
+        file_name = f"students({num_students})_criteria({num_criteria})"
     students = []
+
+    criteria_template = [
+        {
+            "name": f"Criteria_{i + 1}",
+            "type": random.choice(["0-1", "0-10", "0-100"])
+        }
+        for i in range(num_criteria)
+    ]
+
     for student_id in range(1, num_students + 1):
         # מגריל העדפות רנדומליות
         preferences = generate_random_preferences(1, num_students, student_id)
 
         # מגדיל קריטריונים רנדומלים
-        criteria = []
-        for _ in range(num_criteria):
-            criteria_type = random.choice(["0-1", "0-10", "0-100"])
-            criteria_value = (
-                random.choice([0, 1]) if criteria_type == "0-1" else
-                random.randint(0, 10) if criteria_type == "0-10" else
-                random.randint(0, 100)
-            )
-            criteria.append({
-                "name": f"Criteria_{random.randint(1, 100)}",
-                "type": criteria_type,
-                "value": str(criteria_value)
-            })
+        criteria = generate_criteria_list(criteria_template)
 
         # יוצר את הגייסון של התלמיד
         student_data = {
@@ -111,3 +107,23 @@ def generate_students_json(file_name: str = None, num_students: int = 10, num_cr
         json.dump(students, file, indent=4)
 
     print(f"Generated {num_students} students and saved to {file_name}")
+
+def translate_file_to_students(file_name: str) -> List[Student]:
+    """
+    קורא קובץ גייסון ומחזיר את הרשימה של התלמידים בתור אובייקט
+    """
+    try:
+        with open(file_name, "r") as file:
+            students_data = json.load(file)
+        
+        students = [Student(data) for data in students_data]
+        return students
+    except FileNotFoundError:
+        print(f"שגיאה: לא נמצא קובץ עם השם: '{file_name}'")
+        return []
+    except json.JSONDecodeError:
+        print(f"שגיאה: נכשל בתרגום הקובץ: '{file_name}'.")
+        return []
+    except Exception as e:
+        print(f"קרתה שגיאה לא יודעה: {e}")
+        return []
