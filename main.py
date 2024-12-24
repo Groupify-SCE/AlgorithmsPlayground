@@ -1,9 +1,9 @@
-from utils.helperFunctions import generate_random_student_list, print_students_table
+from utils.helperFunctions import generate_random_student_list, generate_students_json, print_students_table, translate_file_to_students
 from Genetic.StandardGenetic import genetic_algorithm
 from Genetic.PreferencesGenetic import genetic_algorithm_with_preferences
 
-AMOUNT_OF_STUDENTS = 15
-CRITERIA_LIST = [{"name": "GPA", "type": "0-100"}]
+def get_filename(num_students: int, num_criteria: int):
+    return f"samples\students({num_students})_criteria({num_criteria}).json"
 
 def test_standard_genetic():
     # פרמטרים
@@ -36,5 +36,5 @@ def test_preferences_genetic():
         print(f"Group {i} ({len(group)}): {group}")
 
 if __name__ == "__main__":
-    students = generate_random_student_list(AMOUNT_OF_STUDENTS, CRITERIA_LIST)
+    students = translate_file_to_students(get_filename(15, 1))
     print_students_table(students)

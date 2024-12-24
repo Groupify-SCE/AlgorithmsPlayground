@@ -1,4 +1,5 @@
 import random
+import json
 from utils.student import Student
 from typing import List
 from tabulate import tabulate
@@ -26,11 +27,6 @@ def generate_random_student_list(amount: int, criteria: List[dict]) -> List[Stud
 def generate_random_preferences(min_val: int, max_val: int, exclude: int) -> List[int]:
     """
     יוצר רשימת העדפות רנדומלית לסטודנט, תוך כדי מניעת הכללת ערך מסוים.
-
-    :param min_val: הערך המינימלי האפשרי (int).
-    :param max_val: הערך המקסימלי האפשרי (int).
-    :param exclude: ערך שאינו יכול להיכלל בהעדפות (int).
-    :return: רשימה של מספרים מועדפים (List[int]).
     """
     valid_values = [num for num in range(min_val, max_val + 1) if num != exclude]
     return random.sample(valid_values, 4 if len(valid_values) >= 4 else len(valid_values))
@@ -38,19 +34,10 @@ def generate_random_preferences(min_val: int, max_val: int, exclude: int) -> Lis
 def generate_criteria_list(criteria_definitions: List[dict]) -> List[dict]:
     """
     יוצר רשימת קריטריונים עם ערכים רנדומליים.
-
-    :param criteria_definitions: הגדרות הקריטריונים (List[dict]).
-        כל קריטריון כולל:
-        - name: שם הקריטריון (str).
-        - type: סוג הקריטריון ("0-1", "0-10", "0-100").
-    :return: רשימת קריטריונים עם ערכים רנדומליים (List[dict]).
     """
     def generate_value(criteria_type: str) -> float:
         """
         מייצר ערך רנדומלי בהתבסס על סוג הקריטריון.
-
-        :param criteria_type: סוג הקריטריון (str).
-        :return: ערך רנדומלי (float).
         """
         types = {
             "0-100": (0.0, 100.0),
@@ -72,12 +59,9 @@ def generate_criteria_list(criteria_definitions: List[dict]) -> List[dict]:
     
     return criteria_list
 
-
 def print_students_table(students: List[Student]):
     """
-    Prints a table of student details.
-
-    :param students: A list of student objects.
+    מדפיס טבלה של התלמידים
     """
     table_data = [
         [student.id, ', '.join(map(str, student.preferences)), f"{student.get_score():.2f}"]
@@ -85,3 +69,61 @@ def print_students_table(students: List[Student]):
     ]
     headers = ["ID", "Preferences", "Score"]
     print(tabulate(table_data, headers, tablefmt="grid"))
+
+def generate_students_json(file_name: str = None, num_students: int = 10, num_criteria: int = random.randint(1, 5)) -> None:
+    """
+    מגריל קובץ גייסון עם פרטי תלמידים
+    """
+    if not file_name:
+        file_name = f"students({num_students})_criteria({num_criteria})"
+    students = []
+
+    criteria_template = [
+        {
+            "name": f"Criteria_{i + 1}",
+            "type": random.choice(["0-1", "0-10", "0-100"])
+        }
+        for i in range(num_criteria)
+    ]
+
+    for student_id in range(1, num_students + 1):
+        # מגריל העדפות רנדומליות
+        preferences = generate_random_preferences(1, num_students, student_id)
+
+        # מגדיל קריטריונים רנדומלים
+        criteria = generate_criteria_list(criteria_template)
+
+        # יוצר את הגייסון של התלמיד
+        student_data = {
+            "id": student_id,
+            "name": f"Student_{student_id}",
+            "preferences": preferences,
+            "criteria": criteria
+        }
+        students.append(student_data)
+
+    # שמירה לקובץ גייסון
+    with open(f"samples/{file_name}.json", "w") as file:
+        json.dump(students, file, indent=4)
+
+    print(f"Generated {num_students} students and saved to {file_name}")
+
+def translate_file_to_students(file_name: str) -> List[Student]:
+    """
+    קורא קובץ גייסון ומחזיר את הרשימה של התלמידים בתור אובייקט
+    """
+    try:
+        with open(file_name, "r") as file:
+            students_data = json.load(file)
+        
+        students = [Student(data) for data in students_data]
+        return students
+    except FileNotFoundError:
+        print(f"שגיאה: לא נמצא קובץ עם השם: '{file_name}'")
+        return []
+    except json.JSONDecodeError:
+        print(f"שגיאה: נכשל בתרגום הקובץ: '{file_name}'.")
+        return []
+    except Exception as e:
+        print(f"קרתה שגיאה לא יודעה: {e}")
+        return []
