@@ -16,7 +16,8 @@ def initialize_groups(students: List[Student], num_groups: int) -> List[List[Stu
 
     # נחשב את הגודל המקסימלי של כל קבוצה
     max_group_size = len(students) // num_groups + (1 if len(students) % num_groups != 0 else 0)
-
+    
+    random.shuffle(students)
     # נרוץ על כל תלמיד, ננסה להכניס אותו לקבוצה רק אם יש לו את אחת מהעדפות שלו בקבוצה
     # ואם הקבוצה לא עברה את הגודל המקסימלי
     for student in students:
