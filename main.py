@@ -5,7 +5,7 @@ from Genetic.PreferencesGenetic import genetic_algorithm_with_preferences
 def get_filename(num_students: int, num_criteria: int):
     return f"samples\students({num_students})_criteria({num_criteria}).json"
 
-def test_standard_genetic():
+def test_standard_genetic(students):
     # פרמטרים
     num_groups = 3
     population_size = 5
@@ -20,7 +20,7 @@ def test_standard_genetic():
     for i, group in enumerate(best_solution, 1):
         print(f"Group {i}: {group}")
 
-def test_preferences_genetic():
+def test_preferences_genetic(students):
     # פרמטרים
     num_groups = 3
     population_size = 5
