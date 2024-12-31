@@ -1,4 +1,4 @@
-from utils.helperFunctions import generate_random_student_list, generate_students_json, print_students_table, run_generations_experiment, translate_file_to_students
+from utils.helperFunctions import generate_random_student_list, generate_students_json, print_students_table, run_generations_experiment, run_timing_experiment, translate_file_to_students
 from Genetic.StandardGenetic import genetic_algorithm
 from Genetic.PreferencesGenetic import genetic_algorithm_with_preferences
 
@@ -37,4 +37,4 @@ def test_preferences_genetic(students):
 
 if __name__ == "__main__":
     students = translate_file_to_students(get_filename(200, 5))
-    run_generations_experiment(students, 25, 5, 0.3, "test_experiment.csv")
+    run_timing_experiment(students, 25, 5, 0.3, "timing_experiment")

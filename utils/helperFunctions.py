@@ -1,6 +1,7 @@
 import random
 import csv
 import json
+import time
 from Genetic.PreferencesGenetic import calculate_diversity, genetic_algorithm_with_preferences
 from utils.student import Student
 from typing import List
@@ -136,6 +137,7 @@ def run_generations_experiment(students: List[Student], num_groups: int, populat
 
     for generations in generations_to_test:
         print(f"Running {generations} generations...")
+        fitness_scores = []
         for run in range(1, 11):  # 10 הרצות לכל מספר דורות
             # הרצת האלגוריתם הגנטי
             best_solution = genetic_algorithm_with_preferences(students, num_groups, population_size, generations, mutation_rate)
@@ -143,17 +145,46 @@ def run_generations_experiment(students: List[Student], num_groups: int, populat
             # חישוב פיטנס סקור של התוצאה הטובה ביותר
             best_fitness = calculate_diversity(best_solution)
             
-            # שמירת התוצאה
-            results.append({
-                "Generations": generations,
-                "Run": run,
-                "Best_Fitness": best_fitness
-            })
+            # שמירת התוצאה עבור הריצה
+            fitness_scores.append(best_fitness)
+
+        # הוספת התוצאות לרשימה
+        results.append([generations] + fitness_scores)
 
     # כתיבת התוצאות לקובץ CSV
     with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
-        writer = csv.DictWriter(file, fieldnames=["Generations", "Run", "Best_Fitness"])
-        writer.writeheader()
-        writer.writerows(results)
+        fieldnames = ["Generations"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)  # כתיבת הכותרות
+        writer.writerows(results)  # כתיבת השורות
 
     print(f"Experiment completed! Results saved to {output_file}")
+
+def run_timing_experiment(students: List[Student], num_groups: int, population_size: int, mutation_rate: float, output_file: str):
+    generations_to_test = range(10, 501, 10)  # קפיצות של 10 בין 10 ל-500
+    results = []
+
+    for generations in generations_to_test:
+        print(f"Running {generations} generations...")
+        timing_scores = []
+        for run in range(1, 11):  # 10 הרצות לכל מספר דורות
+            # מדידת זמן הריצה של האלגוריתם
+            start_time = time.time()
+            genetic_algorithm_with_preferences(students, num_groups, population_size, generations, mutation_rate)
+            elapsed_time = time.time() - start_time
+
+            # שמירת הזמן עבור הריצה
+            timing_scores.append(elapsed_time)
+
+        # הוספת התוצאות לרשימה
+        results.append([generations] + timing_scores)
+
+    # כתיבת התוצאות לקובץ CSV
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        # הכותרות: Generations + Run_1, Run_2, ..., Run_10
+        fieldnames = ["Generations"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)  # כתיבת הכותרות
+        writer.writerows(results)  # כתיבת השורות
+
+    print(f"Timing experiment completed! Results saved to {output_file}")
