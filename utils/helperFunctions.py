@@ -1,5 +1,7 @@
 import random
+import csv
 import json
+from Genetic.PreferencesGenetic import calculate_diversity, genetic_algorithm_with_preferences
 from utils.student import Student
 from typing import List
 from tabulate import tabulate
@@ -127,3 +129,31 @@ def translate_file_to_students(file_name: str) -> List[Student]:
     except Exception as e:
         print(f"קרתה שגיאה לא יודעה: {e}")
         return []
+    
+def run_generations_experiment(students: List[Student], num_groups: int, population_size: int, mutation_rate: float, output_file: str):
+    generations_to_test = range(10, 501, 10)  # קפיצות של 10 בין 10 ל-500
+    results = []
+
+    for generations in generations_to_test:
+        print(f"Running {generations} generations...")
+        for run in range(1, 11):  # 10 הרצות לכל מספר דורות
+            # הרצת האלגוריתם הגנטי
+            best_solution = genetic_algorithm_with_preferences(students, num_groups, population_size, generations, mutation_rate)
+            
+            # חישוב פיטנס סקור של התוצאה הטובה ביותר
+            best_fitness = calculate_diversity(best_solution)
+            
+            # שמירת התוצאה
+            results.append({
+                "Generations": generations,
+                "Run": run,
+                "Best_Fitness": best_fitness
+            })
+
+    # כתיבת התוצאות לקובץ CSV
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=["Generations", "Run", "Best_Fitness"])
+        writer.writeheader()
+        writer.writerows(results)
+
+    print(f"Experiment completed! Results saved to {output_file}")
