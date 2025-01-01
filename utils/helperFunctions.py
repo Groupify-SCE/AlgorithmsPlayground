@@ -1,5 +1,8 @@
 import random
+import csv
 import json
+import time
+from Genetic.PreferencesGenetic import calculate_diversity, genetic_algorithm_with_preferences
 from utils.student import Student
 from typing import List
 from tabulate import tabulate
@@ -127,3 +130,136 @@ def translate_file_to_students(file_name: str) -> List[Student]:
     except Exception as e:
         print(f"קרתה שגיאה לא יודעה: {e}")
         return []
+    
+def run_generations_experiment(students: List[Student], num_groups: int, population_size: int, mutation_rate: float, output_file: str):
+    generations_to_test = range(10, 501, 10)
+    results = []
+
+    for generations in generations_to_test:
+        print(f"Running {generations} generations...")
+        fitness_scores = []
+        for run in range(1, 11):
+            best_solution = genetic_algorithm_with_preferences(students, num_groups, population_size, generations, mutation_rate)
+            best_fitness = calculate_diversity(best_solution)
+            fitness_scores.append(best_fitness)
+
+        results.append([generations] + fitness_scores)
+
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        fieldnames = ["Generations"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)
+        writer.writerows(results)
+
+    print(f"Experiment completed! Results saved to {output_file}")
+
+def run_timing_experiment(students: List[Student], num_groups: int, population_size: int, mutation_rate: float, output_file: str):
+    generations_to_test = range(10, 501, 10)
+    results = []
+
+    for generations in generations_to_test:
+        print(f"Running {generations} generations...")
+        timing_scores = []
+        for run in range(1, 11):
+            start_time = time.time()
+            genetic_algorithm_with_preferences(students, num_groups, population_size, generations, mutation_rate)
+            elapsed_time = time.time() - start_time
+            timing_scores.append(elapsed_time)
+
+        results.append([generations] + timing_scores)
+
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        fieldnames = ["Generations"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)
+        writer.writerows(results)
+
+    print(f"Timing experiment completed! Results saved to {output_file}")
+
+def run_population_experiment(students: List[Student], num_groups: int, generations_size: int, mutation_rate: float, output_file: str):
+    population_to_test = [5] + list(range(10, 501, 10))
+    results = []
+
+    for population in population_to_test:
+        print(f"Running {population} population...")
+        fitness_scores = []
+        for run in range(1, 11):
+            best_solution = genetic_algorithm_with_preferences(students, num_groups, population, generations_size, mutation_rate)
+            best_fitness = calculate_diversity(best_solution)
+            fitness_scores.append(best_fitness)
+
+        results.append([population] + fitness_scores)
+
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        fieldnames = ["Populations"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)
+        writer.writerows(results)
+
+    print(f"Experiment completed! Results saved to {output_file}")
+
+def run_population_timing_experiment(students: List[Student], num_groups: int, generations_size: int, mutation_rate: float, output_file: str):
+    population_to_test = [5] + list(range(10, 501, 10))
+    results = []
+
+    for population in population_to_test:
+        print(f"Running {population} population...")
+        timing_scores = []
+        for run in range(1, 11):
+            start_time = time.time()
+            genetic_algorithm_with_preferences(students, num_groups, population, generations_size, mutation_rate)
+            elapsed_time = time.time() - start_time
+            timing_scores.append(elapsed_time)
+
+        results.append([population] + timing_scores)
+
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        fieldnames = ["Populations"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)
+        writer.writerows(results)
+
+    print(f"Experiment completed! Results saved to {output_file}")
+
+def run_mutation_experiment(students: List[Student], num_groups: int, generations_size: int, population_size: int, output_file: str):
+    mutation_rate_to_test = list(range(5, 101, 5))
+    results = []
+
+    for mutation_rate in mutation_rate_to_test:
+        print(f"Running {mutation_rate}% population...")
+        fitness_scores = []
+        for run in range(1, 11):
+            best_solution = genetic_algorithm_with_preferences(students, num_groups, population_size, generations_size, mutation_rate/100)
+            best_fitness = calculate_diversity(best_solution)
+            fitness_scores.append(best_fitness)
+        results.append([f"{mutation_rate}%"] + fitness_scores)
+
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        fieldnames = ["Mutation Rate"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)
+        writer.writerows(results)
+
+    print(f"Experiment completed! Results saved to {output_file}")
+
+def run_mutation_timing_experiment(students: List[Student], num_groups: int, generations_size: int, population_size: int, output_file: str):
+    mutation_rate_to_test = list(range(5, 101, 5))
+    results = []
+
+    for mutation_rate in mutation_rate_to_test:
+        print(f"Running {mutation_rate}% population...")
+        timing_scores = []
+        for run in range(1, 11):
+            start_time = time.time()
+            genetic_algorithm_with_preferences(students, num_groups, population_size, generations_size, mutation_rate/100)
+            elapsed_time = time.time() - start_time
+            timing_scores.append(elapsed_time)
+        results.append([f"{mutation_rate}%"] + timing_scores)
+
+    with open(f"experiments/{output_file}.csv", mode='w', newline='') as file:
+        fieldnames = ["Mutation Rate"] + [f"Run_{i}" for i in range(1, 11)]
+        writer = csv.writer(file)
+        writer.writerow(fieldnames)
+        writer.writerows(results)
+
+    print(f"Experiment completed! Results saved to {output_file}")
