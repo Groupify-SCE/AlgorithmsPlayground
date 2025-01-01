@@ -1,0 +1,7402 @@
+[
+    {
+        "id": 1,
+        "name": "Student_1",
+        "preferences": [
+            15,
+            62,
+            183,
+            117
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 20.78
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 47.95
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.39
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 1.76
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 63.69
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Student_2",
+        "preferences": [
+            15,
+            80,
+            123,
+            60
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.93
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 43.87
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.4
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 8.37
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 4.81
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Student_3",
+        "preferences": [
+            36,
+            192,
+            7,
+            53
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 43.83
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 85.91
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.89
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 14.68
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 76.32
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Student_4",
+        "preferences": [
+            178,
+            105,
+            168,
+            29
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 62.96
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 98.51
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.36
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 63.04
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 0.62
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Student_5",
+        "preferences": [
+            100,
+            76,
+            181,
+            133
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 24.78
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.79
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 94.68
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 19.16
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Student_6",
+        "preferences": [
+            81,
+            21,
+            165,
+            200
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 2.55
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 65.0
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.22
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 21.22
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 20.07
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Student_7",
+        "preferences": [
+            192,
+            85,
+            184,
+            173
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 42.01
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 62.21
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.08
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 80.79
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 35.32
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Student_8",
+        "preferences": [
+            103,
+            20,
+            184,
+            39
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 45.8
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 93.38
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.38
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 38.21
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 30.39
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Student_9",
+        "preferences": [
+            44,
+            79,
+            25,
+            135
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 31.29
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 2.82
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.27
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 77.24
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 73.63
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Student_10",
+        "preferences": [
+            192,
+            119,
+            115,
+            165
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 64.47
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 49.91
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.05
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 18.75
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 97.16
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Student_11",
+        "preferences": [
+            192,
+            169,
+            174,
+            177
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 28.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 88.84
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.47
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 73.72
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 48.56
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Student_12",
+        "preferences": [
+            18,
+            64,
+            102,
+            71
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 28.08
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 33.27
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.73
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 10.54
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 28.42
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Student_13",
+        "preferences": [
+            135,
+            117,
+            115,
+            66
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 29.17
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 39.11
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.18
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 23.15
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 91.61
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Student_14",
+        "preferences": [
+            91,
+            63,
+            134,
+            198
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 69.04
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 94.97
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.83
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 0.74
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 19.47
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Student_15",
+        "preferences": [
+            32,
+            30,
+            39,
+            199
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 51.08
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 8.37
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.51
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 72.17
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 25.85
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Student_16",
+        "preferences": [
+            110,
+            124,
+            45,
+            155
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 92.82
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 51.55
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.1
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 65.42
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 17.79
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Student_17",
+        "preferences": [
+            124,
+            49,
+            146,
+            105
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 85.1
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 7.81
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.56
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 83.26
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 84.59
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Student_18",
+        "preferences": [
+            22,
+            71,
+            78,
+            27
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 20.92
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 18.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.55
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 94.07
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 4.79
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Student_19",
+        "preferences": [
+            31,
+            16,
+            60,
+            165
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 63.64
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 3.82
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.31
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 13.9
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 31.55
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Student_20",
+        "preferences": [
+            29,
+            93,
+            37,
+            49
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 12.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 54.26
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.2
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 36.17
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 9.52
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Student_21",
+        "preferences": [
+            124,
+            164,
+            58,
+            87
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 85.45
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 6.1
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.68
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 94.57
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 97.76
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Student_22",
+        "preferences": [
+            109,
+            80,
+            188,
+            155
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 76.79
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 94.77
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.05
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 77.65
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 95.93
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Student_23",
+        "preferences": [
+            165,
+            64,
+            173,
+            86
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 28.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 10.09
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.23
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 31.34
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 44.22
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Student_24",
+        "preferences": [
+            96,
+            44,
+            57,
+            198
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 4.72
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 43.96
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.37
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 53.28
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 68.47
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Student_25",
+        "preferences": [
+            184,
+            116,
+            161,
+            32
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 66.77
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.03
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.98
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 36.75
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 20.49
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Student_26",
+        "preferences": [
+            19,
+            74,
+            183,
+            127
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 97.5
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 87.45
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.36
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 62.84
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 92.89
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Student_27",
+        "preferences": [
+            8,
+            50,
+            102,
+            86
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 48.29
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 61.86
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.72
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 56.18
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 11.53
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Student_28",
+        "preferences": [
+            149,
+            141,
+            172,
+            64
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 52.79
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 52.82
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.23
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 37.96
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 52.62
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Student_29",
+        "preferences": [
+            137,
+            40,
+            117,
+            105
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 2.17
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 66.48
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.19
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 90.31
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 65.3
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Student_30",
+        "preferences": [
+            20,
+            64,
+            125,
+            22
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 39.13
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 94.1
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.58
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 66.76
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 54.17
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Student_31",
+        "preferences": [
+            101,
+            23,
+            13,
+            163
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 93.39
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 53.89
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.73
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 69.38
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 50.21
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Student_32",
+        "preferences": [
+            185,
+            33,
+            27,
+            98
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 83.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 44.2
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.12
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 41.72
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 23.94
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Student_33",
+        "preferences": [
+            52,
+            119,
+            109,
+            81
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 3.07
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 13.59
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.57
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 58.39
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 63.44
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Student_34",
+        "preferences": [
+            185,
+            138,
+            95,
+            161
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 71.66
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 71.66
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.27
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 99.39
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 4.45
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Student_35",
+        "preferences": [
+            123,
+            163,
+            177,
+            150
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 22.99
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 36.28
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.61
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 69.7
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 77.91
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Student_36",
+        "preferences": [
+            141,
+            8,
+            101,
+            93
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 94.56
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 81.65
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.5
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 61.74
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 92.32
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Student_37",
+        "preferences": [
+            120,
+            43,
+            147,
+            174
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 92.91
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 74.55
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.0
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 73.02
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 21.48
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Student_38",
+        "preferences": [
+            80,
+            6,
+            156,
+            32
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 97.79
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 83.9
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.44
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 4.26
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 53.09
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Student_39",
+        "preferences": [
+            5,
+            35,
+            134,
+            149
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 37.03
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 36.3
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.87
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 66.89
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 56.18
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Student_40",
+        "preferences": [
+            178,
+            154,
+            47,
+            64
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.65
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 95.43
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.76
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 57.64
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 92.74
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Student_41",
+        "preferences": [
+            37,
+            95,
+            13,
+            100
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 70.55
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 92.53
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.01
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 95.83
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 30.02
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Student_42",
+        "preferences": [
+            66,
+            103,
+            81,
+            194
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 79.65
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 35.96
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.13
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 78.77
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 10.97
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Student_43",
+        "preferences": [
+            90,
+            146,
+            41,
+            156
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 88.47
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 57.46
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.6
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 14.41
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 76.39
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Student_44",
+        "preferences": [
+            94,
+            106,
+            88,
+            98
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 72.62
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 87.99
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.83
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 76.78
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 10.07
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Student_45",
+        "preferences": [
+            114,
+            131,
+            50,
+            194
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 75.58
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 84.66
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.82
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 80.95
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.69
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Student_46",
+        "preferences": [
+            141,
+            125,
+            83,
+            28
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 32.66
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 66.59
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.09
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 25.21
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.2
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Student_47",
+        "preferences": [
+            184,
+            99,
+            135,
+            42
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.95
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 6.75
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.4
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 85.34
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 34.9
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Student_48",
+        "preferences": [
+            103,
+            155,
+            27,
+            113
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 11.26
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 73.3
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.56
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 72.25
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 18.88
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Student_49",
+        "preferences": [
+            36,
+            92,
+            34,
+            188
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 33.9
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 77.49
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.65
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 97.61
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 13.82
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Student_50",
+        "preferences": [
+            24,
+            6,
+            78,
+            114
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 42.85
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 37.15
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.48
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 40.39
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 79.13
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Student_51",
+        "preferences": [
+            44,
+            1,
+            96,
+            79
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 80.8
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 96.87
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.26
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 1.24
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 37.17
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Student_52",
+        "preferences": [
+            92,
+            172,
+            122,
+            57
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 82.08
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 69.46
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.72
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 19.3
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 41.68
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Student_53",
+        "preferences": [
+            8,
+            117,
+            125,
+            21
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 7.95
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 90.76
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.0
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 21.75
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 91.63
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Student_54",
+        "preferences": [
+            176,
+            11,
+            14,
+            159
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 77.69
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 83.94
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.5
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 23.26
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 67.52
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Student_55",
+        "preferences": [
+            163,
+            123,
+            58,
+            157
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 7.47
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 66.93
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.13
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 31.54
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 44.93
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Student_56",
+        "preferences": [
+            141,
+            106,
+            154,
+            60
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 17.31
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 7.15
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.67
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 55.67
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 20.66
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Student_57",
+        "preferences": [
+            2,
+            115,
+            174,
+            180
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 83.72
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 9.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.23
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 70.32
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 63.56
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Student_58",
+        "preferences": [
+            174,
+            110,
+            197,
+            176
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 85.9
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.67
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.67
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 10.01
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 6.16
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Student_59",
+        "preferences": [
+            16,
+            26,
+            114,
+            70
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 61.44
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 58.99
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.81
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 83.91
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 62.74
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Student_60",
+        "preferences": [
+            161,
+            107,
+            185,
+            124
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 83.99
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 73.55
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.64
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 9.5
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 43.09
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Student_61",
+        "preferences": [
+            50,
+            6,
+            58,
+            88
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 27.12
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 43.37
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.11
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 3.55
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 35.46
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Student_62",
+        "preferences": [
+            64,
+            95,
+            85,
+            7
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 68.96
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 49.9
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.14
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 45.47
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 16.5
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Student_63",
+        "preferences": [
+            122,
+            14,
+            102,
+            182
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 2.02
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 53.68
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.19
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 22.91
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 88.5
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Student_64",
+        "preferences": [
+            164,
+            173,
+            21,
+            144
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 46.63
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 85.48
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.82
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 2.39
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 2.73
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Student_65",
+        "preferences": [
+            200,
+            23,
+            53,
+            78
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 71.42
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 23.3
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.29
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 29.06
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 40.24
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Student_66",
+        "preferences": [
+            35,
+            58,
+            36,
+            128
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 67.32
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 31.41
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.48
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 64.64
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 16.82
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Student_67",
+        "preferences": [
+            151,
+            121,
+            7,
+            148
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 41.48
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 8.36
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.29
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 74.69
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 67.26
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Student_68",
+        "preferences": [
+            182,
+            39,
+            19,
+            45
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 57.06
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 51.4
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.43
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 49.79
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.79
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Student_69",
+        "preferences": [
+            145,
+            63,
+            156,
+            177
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 40.44
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 16.89
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.33
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 88.5
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 79.57
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Student_70",
+        "preferences": [
+            19,
+            199,
+            52,
+            40
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 11.3
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 14.0
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.05
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 14.89
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 85.66
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Student_71",
+        "preferences": [
+            120,
+            51,
+            69,
+            151
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 41.05
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 6.99
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.42
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 57.19
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 67.12
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Student_72",
+        "preferences": [
+            171,
+            184,
+            63,
+            188
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 28.49
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 31.67
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.4
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 26.82
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 56.61
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Student_73",
+        "preferences": [
+            112,
+            125,
+            38,
+            70
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 88.11
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 9.03
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.32
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 22.89
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 16.9
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Student_74",
+        "preferences": [
+            191,
+            19,
+            188,
+            39
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 97.77
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 6.44
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.57
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 25.57
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 8.15
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Student_75",
+        "preferences": [
+            120,
+            68,
+            135,
+            136
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 0.45
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.06
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.73
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 66.41
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 44.22
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Student_76",
+        "preferences": [
+            57,
+            194,
+            179,
+            48
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 93.37
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 70.68
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.97
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 92.96
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 38.82
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Student_77",
+        "preferences": [
+            171,
+            64,
+            92,
+            139
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 65.18
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 36.52
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.16
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 38.09
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 49.81
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Student_78",
+        "preferences": [
+            153,
+            148,
+            107,
+            116
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 64.78
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 77.25
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.3
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 63.4
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 23.99
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Student_79",
+        "preferences": [
+            107,
+            25,
+            160,
+            167
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 59.0
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 95.4
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.81
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 80.76
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 30.76
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Student_80",
+        "preferences": [
+            149,
+            142,
+            197,
+            22
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 57.06
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.54
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.09
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 16.35
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.79
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Student_81",
+        "preferences": [
+            2,
+            138,
+            133,
+            96
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 18.3
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 32.72
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.27
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 30.54
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 3.92
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Student_82",
+        "preferences": [
+            50,
+            4,
+            66,
+            153
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 24.84
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 39.8
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.03
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 36.63
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 57.23
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Student_83",
+        "preferences": [
+            115,
+            41,
+            32,
+            172
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 34.88
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 33.55
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.34
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 17.39
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 53.39
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Student_84",
+        "preferences": [
+            17,
+            44,
+            118,
+            151
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 24.6
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 5.55
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.85
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 0.47
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 97.66
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Student_85",
+        "preferences": [
+            45,
+            43,
+            180,
+            160
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 93.69
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 67.65
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.47
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 87.78
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 43.0
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Student_86",
+        "preferences": [
+            96,
+            199,
+            162,
+            174
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 68.02
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 31.76
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.72
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 42.75
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 46.15
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Student_87",
+        "preferences": [
+            147,
+            89,
+            155,
+            51
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 74.62
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 0.53
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.65
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 66.69
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 21.91
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Student_88",
+        "preferences": [
+            42,
+            35,
+            24,
+            162
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 61.32
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 68.18
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.25
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 43.92
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 84.52
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Student_89",
+        "preferences": [
+            81,
+            175,
+            114,
+            58
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 91.64
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 88.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.16
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 26.65
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 38.53
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Student_90",
+        "preferences": [
+            194,
+            177,
+            50,
+            15
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 1.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 29.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.45
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 79.89
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 99.01
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Student_91",
+        "preferences": [
+            195,
+            162,
+            43,
+            170
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 7.29
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 78.87
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.06
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 58.94
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 85.91
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Student_92",
+        "preferences": [
+            6,
+            156,
+            35,
+            134
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 93.52
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 39.4
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.86
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 55.79
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 90.24
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Student_93",
+        "preferences": [
+            33,
+            26,
+            70,
+            72
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 78.89
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.31
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.41
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 31.53
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 87.9
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Student_94",
+        "preferences": [
+            137,
+            103,
+            22,
+            188
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 86.81
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 30.72
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.62
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 22.67
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 20.63
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Student_95",
+        "preferences": [
+            181,
+            45,
+            13,
+            83
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 13.36
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 91.39
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.25
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 27.44
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 92.41
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Student_96",
+        "preferences": [
+            181,
+            105,
+            38,
+            90
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 17.02
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 37.3
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.72
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 1.41
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 20.82
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Student_97",
+        "preferences": [
+            150,
+            172,
+            7,
+            57
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 28.68
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 28.26
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.51
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 39.01
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 57.84
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Student_98",
+        "preferences": [
+            77,
+            113,
+            2,
+            142
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 57.59
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 49.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.58
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 84.91
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 4.28
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Student_99",
+        "preferences": [
+            32,
+            58,
+            26,
+            101
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 80.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 10.51
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.19
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 18.34
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 89.64
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Student_100",
+        "preferences": [
+            28,
+            103,
+            152,
+            84
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 31.07
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 46.39
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.76
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 61.17
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 54.33
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Student_101",
+        "preferences": [
+            30,
+            125,
+            186,
+            118
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 87.38
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 89.5
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.37
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 40.24
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 62.22
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Student_102",
+        "preferences": [
+            27,
+            160,
+            145,
+            113
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 95.56
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 4.0
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.22
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 33.6
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 81.77
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Student_103",
+        "preferences": [
+            90,
+            188,
+            35,
+            147
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 94.7
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 62.29
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.29
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 79.03
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.46
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Student_104",
+        "preferences": [
+            86,
+            35,
+            114,
+            70
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 80.83
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 31.39
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.93
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 95.6
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 44.92
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Student_105",
+        "preferences": [
+            77,
+            161,
+            74,
+            100
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 72.58
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 25.35
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.03
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 26.32
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 91.15
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Student_106",
+        "preferences": [
+            79,
+            64,
+            103,
+            181
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 79.44
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 57.7
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.52
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 82.4
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 55.89
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Student_107",
+        "preferences": [
+            131,
+            89,
+            119,
+            166
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 33.84
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 53.33
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.73
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 31.73
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 60.15
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Student_108",
+        "preferences": [
+            27,
+            80,
+            51,
+            79
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 65.65
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 97.31
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.67
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 9.37
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 80.64
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Student_109",
+        "preferences": [
+            187,
+            31,
+            172,
+            46
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 95.24
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 37.59
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.38
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 93.0
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 8.82
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Student_110",
+        "preferences": [
+            167,
+            161,
+            84,
+            140
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 69.86
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 90.75
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.81
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 64.25
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 8.14
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Student_111",
+        "preferences": [
+            112,
+            177,
+            143,
+            79
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 6.76
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 45.2
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.9
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 92.11
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 97.48
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Student_112",
+        "preferences": [
+            23,
+            199,
+            56,
+            103
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 71.45
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 16.98
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.84
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 38.83
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 20.3
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Student_113",
+        "preferences": [
+            83,
+            30,
+            153,
+            40
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 6.47
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.91
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.64
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 70.13
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 49.94
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Student_114",
+        "preferences": [
+            77,
+            111,
+            106,
+            27
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 81.25
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 87.4
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.43
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 40.0
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 24.61
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Student_115",
+        "preferences": [
+            174,
+            61,
+            99,
+            146
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 41.27
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 0.5
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.66
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 69.74
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 47.01
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "name": "Student_116",
+        "preferences": [
+            172,
+            97,
+            46,
+            80
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.22
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 95.62
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.9
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 15.56
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 28.45
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "name": "Student_117",
+        "preferences": [
+            150,
+            11,
+            52,
+            113
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 46.81
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 0.31
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.87
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 62.83
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 52.89
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "name": "Student_118",
+        "preferences": [
+            45,
+            49,
+            163,
+            122
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 68.63
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 77.2
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.33
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 76.79
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 61.64
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "name": "Student_119",
+        "preferences": [
+            55,
+            75,
+            123,
+            37
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 25.78
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 60.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.08
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 75.09
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 27.33
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "name": "Student_120",
+        "preferences": [
+            20,
+            112,
+            108,
+            192
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 32.69
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 9.46
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.82
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 20.39
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 78.35
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "name": "Student_121",
+        "preferences": [
+            177,
+            167,
+            195,
+            136
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 60.92
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 3.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.13
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 88.97
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 35.14
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "name": "Student_122",
+        "preferences": [
+            124,
+            98,
+            128,
+            30
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 10.9
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 96.17
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.8
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 34.44
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 88.48
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "name": "Student_123",
+        "preferences": [
+            81,
+            36,
+            98,
+            128
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 13.01
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 88.78
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.43
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 1.69
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 13.57
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "name": "Student_124",
+        "preferences": [
+            175,
+            128,
+            140,
+            12
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 43.78
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 45.33
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.42
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 61.77
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 91.09
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "name": "Student_125",
+        "preferences": [
+            110,
+            30,
+            113,
+            44
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 14.73
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 52.27
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.51
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 31.65
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 50.32
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "name": "Student_126",
+        "preferences": [
+            140,
+            18,
+            5,
+            85
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 23.01
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 43.01
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.22
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 3.17
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 85.6
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "name": "Student_127",
+        "preferences": [
+            77,
+            18,
+            178,
+            114
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 53.92
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 86.69
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.74
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 99.85
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 10.96
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "name": "Student_128",
+        "preferences": [
+            70,
+            36,
+            166,
+            18
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 88.62
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 25.54
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.67
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 91.9
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 30.34
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "name": "Student_129",
+        "preferences": [
+            185,
+            82,
+            42,
+            98
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 68.78
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 16.37
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.97
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 43.45
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 85.29
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "name": "Student_130",
+        "preferences": [
+            13,
+            34,
+            197,
+            181
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 5.24
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 34.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.53
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 43.05
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 49.66
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "name": "Student_131",
+        "preferences": [
+            18,
+            161,
+            73,
+            125
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 38.03
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 54.51
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.8
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 38.48
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 76.91
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "name": "Student_132",
+        "preferences": [
+            81,
+            184,
+            98,
+            1
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 99.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 94.67
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.63
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 41.25
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 12.11
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Student_133",
+        "preferences": [
+            110,
+            176,
+            17,
+            81
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 3.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 23.39
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.46
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 31.54
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 7.21
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Student_134",
+        "preferences": [
+            175,
+            144,
+            10,
+            87
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 84.49
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 47.86
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.09
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 33.09
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 15.21
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Student_135",
+        "preferences": [
+            123,
+            11,
+            23,
+            131
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 78.13
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 15.95
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.48
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 49.15
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 50.93
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "name": "Student_136",
+        "preferences": [
+            135,
+            45,
+            197,
+            32
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 12.95
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 89.69
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.31
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 84.1
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 17.95
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "name": "Student_137",
+        "preferences": [
+            45,
+            66,
+            4,
+            194
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 6.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 5.03
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.83
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 13.18
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 74.89
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "name": "Student_138",
+        "preferences": [
+            68,
+            1,
+            70,
+            69
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 85.28
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 90.67
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.22
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 21.41
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 57.09
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "name": "Student_139",
+        "preferences": [
+            100,
+            124,
+            167,
+            101
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 27.29
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 4.46
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.28
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 96.55
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 2.45
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "name": "Student_140",
+        "preferences": [
+            34,
+            144,
+            104,
+            77
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 6.04
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 58.45
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.53
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 19.08
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 10.35
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "name": "Student_141",
+        "preferences": [
+            20,
+            108,
+            142,
+            56
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 42.4
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 59.27
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.47
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 97.44
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 15.21
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "name": "Student_142",
+        "preferences": [
+            75,
+            85,
+            132,
+            137
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 49.97
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 12.05
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.3
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 58.03
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 77.98
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "name": "Student_143",
+        "preferences": [
+            153,
+            137,
+            128,
+            108
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 51.06
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 30.97
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.05
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 33.13
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 33.16
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "name": "Student_144",
+        "preferences": [
+            115,
+            103,
+            91,
+            128
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 54.76
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 29.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.95
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 51.68
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 12.31
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "name": "Student_145",
+        "preferences": [
+            128,
+            162,
+            191,
+            74
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 46.75
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 85.49
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.46
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 83.18
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 70.02
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "name": "Student_146",
+        "preferences": [
+            123,
+            192,
+            82,
+            94
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 34.05
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 98.82
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.28
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 58.78
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 59.1
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "name": "Student_147",
+        "preferences": [
+            170,
+            7,
+            40,
+            27
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 62.23
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 79.24
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.5
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 52.47
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 67.84
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "name": "Student_148",
+        "preferences": [
+            55,
+            182,
+            37,
+            176
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 99.8
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 17.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.78
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 77.11
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 1.08
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "name": "Student_149",
+        "preferences": [
+            161,
+            89,
+            100,
+            68
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 52.57
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 57.47
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.99
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 36.18
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 58.98
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "name": "Student_150",
+        "preferences": [
+            120,
+            1,
+            5,
+            181
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 98.74
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 44.73
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.14
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 55.9
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 97.93
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "name": "Student_151",
+        "preferences": [
+            56,
+            121,
+            30,
+            20
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 83.44
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 20.74
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.17
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 15.65
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 6.69
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "name": "Student_152",
+        "preferences": [
+            36,
+            160,
+            156,
+            85
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 0.7
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 7.41
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.41
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 19.93
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 90.72
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "name": "Student_153",
+        "preferences": [
+            125,
+            74,
+            73,
+            2
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 44.75
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 2.41
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.49
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 95.92
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.17
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "name": "Student_154",
+        "preferences": [
+            64,
+            169,
+            187,
+            71
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 18.71
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 39.87
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.31
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 50.34
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 94.12
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "name": "Student_155",
+        "preferences": [
+            120,
+            195,
+            138,
+            38
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 92.98
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 1.51
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.16
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 85.04
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 39.81
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "name": "Student_156",
+        "preferences": [
+            102,
+            89,
+            136,
+            140
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 95.04
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 78.53
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.84
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 34.0
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 33.19
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "name": "Student_157",
+        "preferences": [
+            120,
+            134,
+            186,
+            131
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 48.18
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 32.92
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.56
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 74.78
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 17.81
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "name": "Student_158",
+        "preferences": [
+            93,
+            180,
+            117,
+            1
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 58.74
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 57.17
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.27
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 63.29
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 17.45
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "name": "Student_159",
+        "preferences": [
+            185,
+            33,
+            165,
+            63
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 57.55
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 67.67
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.5
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 65.46
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 10.41
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "name": "Student_160",
+        "preferences": [
+            145,
+            97,
+            76,
+            110
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 39.83
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 74.42
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.81
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 18.91
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 37.33
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "name": "Student_161",
+        "preferences": [
+            162,
+            100,
+            67,
+            92
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 4.44
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 12.45
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.87
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 86.15
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 73.89
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "name": "Student_162",
+        "preferences": [
+            96,
+            156,
+            180,
+            61
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 37.59
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 81.42
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.1
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 79.53
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 29.69
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "name": "Student_163",
+        "preferences": [
+            129,
+            121,
+            104,
+            114
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 58.64
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 78.29
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.08
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 11.36
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 69.13
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "name": "Student_164",
+        "preferences": [
+            64,
+            131,
+            43,
+            32
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 32.18
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 54.54
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.7
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 78.84
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 40.18
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "name": "Student_165",
+        "preferences": [
+            53,
+            155,
+            89,
+            138
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 20.51
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 77.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.01
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 20.65
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 2.47
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "name": "Student_166",
+        "preferences": [
+            94,
+            27,
+            90,
+            44
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 58.42
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 17.48
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.26
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 7.01
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 61.34
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "name": "Student_167",
+        "preferences": [
+            100,
+            39,
+            16,
+            196
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 13.65
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 93.2
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.66
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 50.68
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 68.53
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "name": "Student_168",
+        "preferences": [
+            15,
+            142,
+            159,
+            112
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 75.52
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 28.05
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 0.13
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 36.38
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 25.25
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "name": "Student_169",
+        "preferences": [
+            24,
+            23,
+            87,
+            84
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 98.75
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 33.18
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.2
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 10.95
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 80.77
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "name": "Student_170",
+        "preferences": [
+            32,
+            140,
+            182,
+            136
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 53.51
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 21.23
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.84
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 42.12
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 4.64
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "name": "Student_171",
+        "preferences": [
+            73,
+            45,
+            99,
+            52
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 73.19
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 70.38
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.7
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 55.44
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 44.16
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "name": "Student_172",
+        "preferences": [
+            5,
+            21,
+            24,
+            193
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 8.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 3.84
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.25
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 9.11
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 33.45
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "name": "Student_173",
+        "preferences": [
+            153,
+            88,
+            187,
+            2
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 3.52
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 1.48
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.94
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 54.05
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 30.81
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "name": "Student_174",
+        "preferences": [
+            59,
+            136,
+            179,
+            119
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 90.18
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 88.36
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.07
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 49.59
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 1.84
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "name": "Student_175",
+        "preferences": [
+            158,
+            90,
+            20,
+            126
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 61.35
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 62.84
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.53
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 65.51
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 57.28
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "name": "Student_176",
+        "preferences": [
+            83,
+            54,
+            141,
+            36
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 15.72
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 82.51
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.29
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 71.13
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 64.35
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "name": "Student_177",
+        "preferences": [
+            134,
+            165,
+            146,
+            72
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 7.32
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 7.18
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.85
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 46.91
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 52.36
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "name": "Student_178",
+        "preferences": [
+            12,
+            183,
+            153,
+            22
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 73.3
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 14.17
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.14
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 7.45
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 82.16
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "name": "Student_179",
+        "preferences": [
+            174,
+            145,
+            161,
+            127
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 12.83
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 19.33
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.48
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 97.61
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 0.76
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "name": "Student_180",
+        "preferences": [
+            21,
+            184,
+            126,
+            16
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 97.32
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 12.76
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.64
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 0.06
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 72.87
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "name": "Student_181",
+        "preferences": [
+            195,
+            6,
+            57,
+            54
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 72.84
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 40.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.38
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 12.92
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 38.13
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "name": "Student_182",
+        "preferences": [
+            98,
+            160,
+            96,
+            39
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 12.64
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 0.46
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.3
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 63.2
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 96.2
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "name": "Student_183",
+        "preferences": [
+            59,
+            108,
+            61,
+            62
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 82.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 66.77
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.54
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 74.13
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 16.66
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "name": "Student_184",
+        "preferences": [
+            149,
+            11,
+            156,
+            125
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 24.36
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 38.64
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 2.82
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 56.88
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 86.42
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "name": "Student_185",
+        "preferences": [
+            30,
+            195,
+            108,
+            153
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 45.56
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 55.17
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 3.08
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 8.06
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 86.51
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "name": "Student_186",
+        "preferences": [
+            10,
+            129,
+            113,
+            172
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 59.35
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 56.92
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.43
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 60.32
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 82.17
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "name": "Student_187",
+        "preferences": [
+            49,
+            150,
+            155,
+            26
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 66.02
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 33.59
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 5.02
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 48.71
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 5.15
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "name": "Student_188",
+        "preferences": [
+            28,
+            133,
+            189,
+            70
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 6.15
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 44.97
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.63
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 16.91
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 50.91
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "name": "Student_189",
+        "preferences": [
+            2,
+            104,
+            101,
+            197
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 84.82
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 78.1
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.71
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 52.81
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 70.28
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "name": "Student_190",
+        "preferences": [
+            76,
+            187,
+            19,
+            72
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 32.76
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 21.51
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.68
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 9.25
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 33.39
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "name": "Student_191",
+        "preferences": [
+            13,
+            116,
+            187,
+            161
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 1.95
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 99.43
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 8.9
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 3.62
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 28.37
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "name": "Student_192",
+        "preferences": [
+            101,
+            104,
+            148,
+            8
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 95.69
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 67.61
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.61
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 66.32
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 85.61
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "name": "Student_193",
+        "preferences": [
+            187,
+            16,
+            30,
+            66
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 81.42
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 92.19
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.17
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 28.84
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 34.13
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "name": "Student_194",
+        "preferences": [
+            5,
+            119,
+            57,
+            109
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 2.76
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 37.36
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 6.68
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 4.72
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 33.88
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "name": "Student_195",
+        "preferences": [
+            77,
+            9,
+            59,
+            122
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 45.95
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 48.52
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 4.72
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 67.88
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 61.72
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "name": "Student_196",
+        "preferences": [
+            120,
+            119,
+            113,
+            22
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 89.8
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 75.41
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.08
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 89.67
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 6.07
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "name": "Student_197",
+        "preferences": [
+            196,
+            111,
+            113,
+            71
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 31.09
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 10.16
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 1.21
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 52.12
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 45.82
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "name": "Student_198",
+        "preferences": [
+            96,
+            152,
+            119,
+            30
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 44.73
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 66.53
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.61
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 23.93
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 23.08
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "name": "Student_199",
+        "preferences": [
+            153,
+            141,
+            196,
+            40
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 98.4
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 99.82
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 9.43
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 98.12
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 36.51
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "name": "Student_200",
+        "preferences": [
+            75,
+            131,
+            27,
+            156
+        ],
+        "criteria": [
+            {
+                "name": "Criteria_1",
+                "type": "0-100",
+                "value": 36.79
+            },
+            {
+                "name": "Criteria_2",
+                "type": "0-100",
+                "value": 31.74
+            },
+            {
+                "name": "Criteria_3",
+                "type": "0-10",
+                "value": 7.29
+            },
+            {
+                "name": "Criteria_4",
+                "type": "0-100",
+                "value": 22.93
+            },
+            {
+                "name": "Criteria_5",
+                "type": "0-100",
+                "value": 14.21
+            }
+        ]
+    }
+]
