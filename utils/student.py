@@ -2,7 +2,7 @@ class Student:
     """
     מחלקה לייצוג סטודנט, הכוללת נתונים כמו מזהה, שם, העדפות וקריטריונים לחישוב ציון.
     """
-    def __init__(self, student_data: dict):
+    def __init__(self, student_data: dict, experiment: bool = False):
         """
         אתחול אובייקט סטודנט.
 
@@ -14,29 +14,36 @@ class Student:
         """
         self.id = student_data.get("id")
         self.name = student_data.get("name")
-        self.preferences = student_data.get("preferences", [])  
-        self.criteria = student_data.get("criteria", [])
+        self.preferences = student_data.get("preferences", [])
+        self.criteria = student_data.get("criteria", {} if experiment else [])
+        self.experiment = experiment
 
-    def get_score(self) -> float:
+    def get_score(self, student = None) -> float:
         """
         מחשב את הציון הכולל של הסטודנט על בסיס הקריטריונים.
 
         :return: הציון הכולל (float).
         """
-        total_score = 0.0
-        for criteria in self.criteria:
-            criteria_type = criteria.get("type")
-            value = float(criteria.get("value", 0))
+        if self.experiment:
+            if student:
+                return self.criteria[student.id]
+            else:
+                return 0
+        else:
+            total_score = 0.0
+            for criteria in self.criteria:
+                criteria_type = criteria.get("type")
+                value = float(criteria.get("value", 0))
 
-            # חישוב הציון לפי סוג הקריטריון
-            if criteria_type == "0-1":
-                total_score += value * 100
-            elif criteria_type == "0-10":
-                total_score += value * 10
-            elif criteria_type == "0-100":
-                total_score += value
+                # חישוב הציון לפי סוג הקריטריון
+                if criteria_type == "0-1":
+                    total_score += value * 100
+                elif criteria_type == "0-10":
+                    total_score += value * 10
+                elif criteria_type == "0-100":
+                    total_score += value
 
-        return total_score
+            return total_score
 
     def __repr__(self):
         """
