@@ -54,7 +54,16 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     preference_score = 0
 
     for group in groups:
-        scores = [student.get_score() for student in group]
+        scores = []
+        if group[0].experiment:
+            for student in group:
+                temp = 0
+                for student2 in group:
+                    if student.id != student2.id:
+                        temp += student.get_score(student2)
+            scores.append(temp)
+        else:
+            scores = [student.get_score() for student in group]
         if len(scores) > 1:  # סטיית תקן מוגדרת רק עבור יותר מנתון אחד
             diversity = statistics.stdev(scores)
         else:
