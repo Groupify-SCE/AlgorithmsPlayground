@@ -4,7 +4,7 @@ import json
 import time
 from Genetic.PreferencesGenetic import calculate_diversity, genetic_algorithm_with_preferences
 from utils.student import Student
-from typing import List
+from typing import List, Tuple
 from tabulate import tabulate
 
 def generate_random_student_list(amount: int, criteria: List[dict]) -> List[Student]:
@@ -131,6 +131,49 @@ def translate_file_to_students(file_name: str) -> List[Student]:
         print(f"קרתה שגיאה לא יודעה: {e}")
         return []
     
+def parse_problem_files(ranint_path: str, acceptance_path: str) -> Tuple[List[Student], int]:
+    """
+    פונקציה שמעבדת את זוג הקבצים RanInt ו-acceptance ומחזירה את רשימת הסטודנטים וכמות הקבוצות.
+
+    :param ranint_path: הנתיב לקובץ RanInt.
+    :param acceptance_path: הנתיב לקובץ acceptance.
+    :return: זוג (רשימת סטודנטים, מספר קבוצות).
+    """
+    # קריאת קובץ RanInt
+    with open('experiments/data/' + ranint_path, 'r') as f:
+        lines = f.readlines()
+    
+    first_line = lines[0].strip().split()
+    num_students = int(first_line[0])
+    num_groups = int(first_line[1])
+
+    criteria = {i: {} for i in range(num_students)}
+    for line in lines[1:]:
+        student1, student2, score = map(int, line.strip().split())
+        if student2 not in criteria[student1]:
+            criteria[student1][student2] = score
+        if student1 not in criteria[student2]:
+            criteria[student2][student1] = score
+
+    # קריאת קובץ acceptance
+    with open('experiments/data/' + acceptance_path, 'r') as f:
+        acceptance_lines = f.readlines()
+
+    # יצירת אובייקטים של סטודנטים
+    students = []
+    for line in acceptance_lines:
+        student_id = int(line.strip().split()[0])
+        preferences = list(map(int, line.strip().split()[1:]))
+        data = {
+            "id": student_id,
+            "name": f'Student_{student_id}',
+            "preferences": preferences,
+            "criteria": criteria[student_id]
+        }
+        students.append(Student(data, experiment = True))
+
+    return students, num_groups
+
 def run_generations_experiment(students: List[Student], num_groups: int, population_size: int, mutation_rate: float, output_file: str):
     generations_to_test = range(10, 501, 10)
     results = []
