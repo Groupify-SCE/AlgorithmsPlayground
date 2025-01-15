@@ -56,14 +56,12 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     for group in groups:
         scores = []
         if group[0].experiment:
-            for student in group:
-                temp = 0
-                for student2 in group:
-                    if student.id != student2.id:
-                        temp += student.get_score(student2)
-            scores.append(temp)
+            for i, student1 in enumerate(group):
+                for student2 in group[i+1:]:
+                    scores.append(student1.get_score(student2))
         else:
             scores = [student.get_score() for student in group]
+        
         if len(scores) > 1:  # סטיית תקן מוגדרת רק עבור יותר מנתון אחד
             diversity = statistics.stdev(scores)
         else:
@@ -182,7 +180,6 @@ def abc_algorithm_with_prefrences(students: List[Student], num_groups: int, num_
         if best_fitness > GLOBAL_MAX_VAL:
             GLOBAL_MAX_VAL = best_fitness
             GLOBAL_MAX = solutions[scores.index(GLOBAL_MAX_VAL)]
-        print(f"Iteration {iteration + 1}, Best Fitness: {GLOBAL_MAX_VAL}")
 
     # בסוף, מחזירים את הפתרון הטוב ביותר
     return GLOBAL_MAX

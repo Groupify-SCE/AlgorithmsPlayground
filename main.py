@@ -3,6 +3,7 @@ from Genetic.StandardGenetic import genetic_algorithm
 from Genetic.PreferencesGenetic import genetic_algorithm_with_preferences
 from ABC.StandardABC import abc_algorithm
 from ABC.PrefrencesABC import abc_algorithm_with_prefrences
+import utils.experimentsFunctions as experiments
 from termcolor import colored
 
 
@@ -24,7 +25,7 @@ def test_standard_genetic(students, num_groups):
 def test_preferences_genetic(students, num_groups):
     # פרמטרים
     population_size = 5
-    generations = 50
+    generations = 200
     mutation_rate = 0.3
 
     # הרצה
@@ -73,4 +74,4 @@ if __name__ == "__main__":
     ranint_path = "RanInt_n060_ss_01.txt"
     acceptance_path = "acceptance60_1.txt"
     students, num_groups = parse_problem_files(ranint_path, acceptance_path)
-    test_prefrences_abc(students, num_groups)
+    experiments.experiment_ABC_iterations(students, num_groups, 10)

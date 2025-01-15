@@ -131,9 +131,6 @@ def abc_algorithm(students: List[Student], num_groups: int, num_iterations: int 
                 solutions[i] = new_sol
                 scores[i] = calculate_diversity(new_sol)
                 stagnation[i] = 0
-        # הדפסת מידע על הדור
-        best_fitness = max(scores)
-        print(f"Iteration {iteration + 1}, Best Fitness: {best_fitness}")
 
     # בסוף, מחזירים את הפתרון הטוב ביותר
     best_index = scores.index(max(scores))
