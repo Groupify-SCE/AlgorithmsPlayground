@@ -53,7 +53,14 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     preference_score = 0
 
     for group in groups:
-        scores = [student.get_score() for student in group]
+        scores = []
+        if group[0].experiment:
+            for i, student1 in enumerate(group):
+                for student2 in group[i+1:]:
+                    scores.append(student1.get_score(student2))
+        else:
+            scores = [student.get_score() for student in group]
+        
         if len(scores) > 1:  # סטיית תקן מוגדרת רק עבור יותר מנתון אחד
             diversity = statistics.stdev(scores)
         else:
@@ -187,10 +194,6 @@ def genetic_algorithm_with_preferences(students: List[Student], num_groups: int,
 
         # עדכון האוכלוסייה
         update_population(population, fitness_scores, mutated_child)
-
-        # הדפסת מידע על הדור
-        #best_fitness = max(fitness_scores)
-        #print(f"Generation {generation + 1}, Best Fitness: {best_fitness}")
 
     # מחזירים את הפתרון הטוב ביותר
     best_index = fitness_scores.index(max(fitness_scores))

@@ -151,10 +151,6 @@ def genetic_algorithm(students: List[Student], num_groups: int, population_size:
         # עדכון האוכלוסייה
         update_population(population, fitness_scores, mutated_child)
 
-        # הדפסת מידע על הדור
-        best_fitness = max(fitness_scores)
-        print(f"Generation {generation + 1}, Best Fitness: {best_fitness}")
-
     # מחזירים את הפתרון הטוב ביותר
     best_index = fitness_scores.index(max(fitness_scores))
     return population[best_index]
