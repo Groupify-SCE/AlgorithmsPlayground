@@ -3,6 +3,7 @@ from Genetic.StandardGenetic import genetic_algorithm
 from Genetic.PreferencesGenetic import genetic_algorithm_with_preferences
 from ABC.StandardABC import abc_algorithm
 from ABC.PrefrencesABC import abc_algorithm_with_prefrences
+from components.InitialDivision import initialize_groups
 import utils.experimentsFunctions as experiments
 from termcolor import colored
 
@@ -74,4 +75,5 @@ if __name__ == "__main__":
     ranint_path = "RanInt_n060_ss_01.txt"
     acceptance_path = "acceptance60_1.txt"
     students, num_groups = parse_problem_files(ranint_path, acceptance_path)
-    experiments.experiment_ABC_iterations(students, num_groups, 10)
+    #experiments.experiment_ABC_iterations(students, num_groups, 10)
+    test_preferences_genetic(students, num_groups)

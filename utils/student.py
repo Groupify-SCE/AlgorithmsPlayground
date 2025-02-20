@@ -25,7 +25,7 @@ class Student:
         :return: הציון הכולל (float).
         """
         if self.experiment:
-            if student:
+            if student and student.id != self.id:
                 return self.criteria[student.id]
             else:
                 return 0
