@@ -65,12 +65,15 @@ def is_valid_group(group: List[Node]) -> bool:
             return False
     return True
 
-def get_group(node: Node, group_size: int, partial: List[Node] = None) -> List[Node]:
+def get_group(node: Node, group_size: int, partial: List[Node] = None, depth: int = 0, limit: int = 100) -> List[Node]:
     """
     Recursively attempt to build a group starting at 'node'.
     The group must be of size group_size and satisfy the preference condition.
-    An extra check is added to ensure that the same node is not added twice.
+    Added depth parameter to limit excessive recursion.
     """
+    if depth > limit:
+        return []
+        
     if partial is None:
         partial = []
     current_group = partial + [node]
@@ -79,17 +82,10 @@ def get_group(node: Node, group_size: int, partial: List[Node] = None) -> List[N
     if len(current_group) == group_size:
         return current_group if is_valid_group(current_group) else []
     
-    # First, try to extend via the DFS parent (pie) if available,
-    # not already in the group and not assigned to another group.
-    if node.pie and node.pie.color != "Red" and node.pie not in current_group:
-        result = get_group(node.pie, group_size, current_group)
-        if result:
-            return result
-    
     # Then try each neighbor that is not yet assigned and not already in the group.
     for nbr in node.neighbors:
         if nbr.color != "Red" and nbr not in current_group:
-            result = get_group(nbr, group_size, current_group)
+            result = get_group(nbr, group_size, current_group, depth + 1, limit)
             if result:
                 return result
     return []
@@ -125,13 +121,14 @@ def dfs_grouping(students: List[Student], num_groups: int) -> List[List[Node]]:
     # Create a deque sorted by discovery time (largest d first)
     Q = deque(sorted(nodes.keys(), key=lambda key: nodes[key].d if nodes[key].d is not None else 0, reverse=True))
     groups = []
-    target_size = len(students) // num_groups
+    n = len(students)
+    target_size = n // num_groups
 
     # Build groups by attempting to form a valid group starting from each node
     while Q:
         current = nodes[Q.popleft()]
         if current.color != "Red":
-            group = get_group(current, target_size)
+            group = get_group(current, target_size, limit=n)
             if group:
                 for node in group:
                     node.color = "Red"
@@ -140,7 +137,7 @@ def dfs_grouping(students: List[Student], num_groups: int) -> List[List[Node]]:
     # Process any nodes that have not been assigned
     ungrouped_nodes = [node for node in nodes.values() if node.color != "Red"]
     # Calculate maximum group size (if not perfectly divisible)
-    max_group_size = target_size + (1 if len(students) % num_groups != 0 else 0)
+    max_group_size = target_size + (1 if n % num_groups != 0 else 0)
     groups += group_ungrouped_nodes(ungrouped_nodes, max_group_size)
 
     return groups
@@ -149,6 +146,7 @@ def initialize_groups(students: List[Student], num_groups: int) -> List[List[Stu
     """
     Shuffle the students and create initial groups based on their preferences.
     """
+    print(1)
     shuffle(students)
     node_groups = dfs_grouping(students, num_groups)
     # Convert groups of Nodes back to groups of Student objects
