@@ -20,8 +20,8 @@ def run_experiments():
             res_students, res_groups = parse_problem_files(f"diversity/RanInt_n{input}_ss_{i:02d}.txt", f"acceptance/acceptance{input}_{i:02d}.txt")
             students[str(input)].append(res_students)
             num_groups[str(input)].append(res_groups)
-    for input_size in input_sizes[2:]:
-        #experiment_ABC_iterations(students[str(input_size)], num_groups[str(input_size)], 10)
+    for input_size in input_sizes:
+        experiment_ABC_iterations(students[str(input_size)], num_groups[str(input_size)], 10)
         experiment_Genetic_generations(students[str(input_size)], num_groups[str(input_size)], 0.3)
 
 def experiment_ABC_iterations(students: List[List[Student]], num_groups: List[int], limit: int):
