@@ -76,4 +76,4 @@ if __name__ == "__main__":
     acceptance_path = "acceptance60_1.txt"
     students, num_groups = parse_problem_files(ranint_path, acceptance_path)
     #experiments.experiment_ABC_iterations(students, num_groups, 10)
-    test_preferences_genetic(students, num_groups)
+    test_prefrences_abc(students, num_groups)
