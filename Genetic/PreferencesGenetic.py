@@ -43,13 +43,13 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     total_score = mean_diversity + preference_score - diversity_variance
     return total_score
 
-def generate_initial_population(students: List[Student], num_groups: int, population_size: int) -> List[List[List[Student]]]:
+def generate_initial_population(students: List[Student], num_groups: int) -> List[List[List[Student]]]:
     """
     יוצרת אוכלוסייה ראשונית של פתרונות.
     כל פתרון הוא חלוקה של התלמידים לקבוצות.
     """
     population = []  # רשימת פתרונות
-    for _ in range(population_size):
+    for _ in range(num_groups):
         groups = initialize_groups(students, num_groups)  # חלוקה אקראית
         population.append(groups)
     return population
@@ -140,9 +140,9 @@ def update_population(population: List[List[List[Student]]], fitness_scores: Lis
         population[worst_index] = child
         fitness_scores[worst_index] = child_fitness
 
-def genetic_algorithm_with_preferences(students: List[Student], num_groups: int, population_size: int, generations: int, mutation_rate: float):
+def genetic_algorithm_with_preferences(students: List[Student], num_groups: int, generations: int, mutation_rate: float):
     # יצירת אוכלוסייה ראשונית
-    population = generate_initial_population(students, num_groups, population_size)
+    population = generate_initial_population(students, num_groups)
     fitness_scores = calculate_population_fitness(population)
 
     for generation in range(generations):

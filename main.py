@@ -72,8 +72,10 @@ def print_solution_with_highlights(solution):
 
 
 if __name__ == "__main__":
+    experiments.run_experiments()
+    """
     ranint_path = "RanInt_n060_ss_01.txt"
     acceptance_path = "acceptance60_1.txt"
     students, num_groups = parse_problem_files(ranint_path, acceptance_path)
     #experiments.experiment_ABC_iterations(students, num_groups, 10)
-    test_prefrences_abc(students, num_groups)
+    """
