@@ -146,7 +146,6 @@ def initialize_groups(students: List[Student], num_groups: int) -> List[List[Stu
     """
     Shuffle the students and create initial groups based on their preferences.
     """
-    print(1)
     shuffle(students)
     node_groups = dfs_grouping(students, num_groups)
     # Convert groups of Nodes back to groups of Student objects
