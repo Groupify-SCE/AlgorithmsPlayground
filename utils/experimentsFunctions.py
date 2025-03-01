@@ -21,8 +21,8 @@ def run_experiments():
             students[str(input)].append(res_students)
             num_groups[str(input)].append(res_groups)
     for input_size in input_sizes:
-        experiment_ABC_iterations(students[str(input_size)], num_groups[str(input_size)], 10)
-        experiment_Genetic_generations(students[str(input_size)], num_groups[str(input_size)], 0.3)
+        experiment_ABC_limit(students[str(input_size)], num_groups[str(input_size)], 180)
+        experiment_Genetic_mutation(students[str(input_size)], num_groups[str(input_size)], 400)
 
 def experiment_ABC_iterations(students: List[List[Student]], num_groups: List[int], limit: int):
     output_file = f"ABC/Iterations_{len(students[0])}"
@@ -65,7 +65,7 @@ def experiment_ABC_iterations(students: List[List[Student]], num_groups: List[in
 def experiment_ABC_limit(students: List[List[Student]], num_groups: List[int], iterations: int):
     output_file = f"ABC/Limit_{len(students[0])}"
     # ציר X
-    limits = list(range(1, 51))
+    limits = list(range(1, 101))
     # ציר Y
     results_fitness = []
     results_time = []
@@ -141,7 +141,7 @@ def experiment_Genetic_generations(students: List[List[Student]], num_groups: Li
 def experiment_Genetic_mutation(students: List[List[Student]], num_groups: List[int], generations: int):
     output_file = f"Genetic/Mutation_{len(students[0])}"
     # ציר X
-    mutations = [float(x/100) for x in list(range(1, 101, 1))]
+    mutations = [float(x/100) for x in list(range(1, 101))]
     # ציר Y
     results_fitness = []
     results_time = []
