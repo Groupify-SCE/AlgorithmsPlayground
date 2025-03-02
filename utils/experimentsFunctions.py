@@ -20,7 +20,8 @@ def run_experiments():
             res_students, res_groups = parse_problem_files(f"diversity/RanInt_n{input}_ss_{i:02d}.txt", f"acceptance/acceptance{input}_{i:02d}.txt")
             students[str(input)].append(res_students)
             num_groups[str(input)].append(res_groups)
-    for input_size in input_sizes:
+    print(input_sizes[4:])
+    for input_size in input_sizes[4:]:
         experiment_ABC_limit(students[str(input_size)], num_groups[str(input_size)], 180)
         experiment_Genetic_mutation(students[str(input_size)], num_groups[str(input_size)], 400)
 
