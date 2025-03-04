@@ -20,10 +20,8 @@ def run_experiments():
             res_students, res_groups = parse_problem_files(f"diversity/RanInt_n{input}_ss_{i:02d}.txt", f"acceptance/acceptance{input}_{i:02d}.txt")
             students[str(input)].append(res_students)
             num_groups[str(input)].append(res_groups)
-    print(input_sizes[4:])
-    for input_size in input_sizes[4:]:
-        experiment_ABC_limit(students[str(input_size)], num_groups[str(input_size)], 180)
-        experiment_Genetic_mutation(students[str(input_size)], num_groups[str(input_size)], 400)
+    for input_size in input_sizes:
+        experiment_Genetic_generations(students[str(input_size)], num_groups[str(input_size)], 0.3)
 
 def experiment_ABC_iterations(students: List[List[Student]], num_groups: List[int], limit: int):
     output_file = f"ABC/Iterations_{len(students[0])}"
@@ -104,7 +102,7 @@ def experiment_ABC_limit(students: List[List[Student]], num_groups: List[int], i
 def experiment_Genetic_generations(students: List[List[Student]], num_groups: List[int], mutation: float):
     output_file = f"Genetic/Generations_{len(students[0])}"
     # ציר X
-    generations = [1] + list(range(5, 501, 5))
+    generations = [1] + list(range(5, 1001, 5))
     # ציר Y
     results_fitness = []
     results_time = []
