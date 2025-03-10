@@ -102,7 +102,7 @@ def experiment_ABC_limit(students: List[List[Student]], num_groups: List[int], i
 def experiment_Genetic_generations(students: List[List[Student]], num_groups: List[int], mutation: float):
     output_file = f"Genetic/Generations_{len(students[0])}"
     # ציר X
-    generations = [1] + list(range(5, 1001, 5))
+    generations = [1] + list(range(5, 2501, 5))
     # ציר Y
     results_fitness = []
     results_time = []
