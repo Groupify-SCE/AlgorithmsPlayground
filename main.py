@@ -25,12 +25,11 @@ def test_standard_genetic(students, num_groups):
 
 def test_preferences_genetic(students, num_groups):
     # פרמטרים
-    population_size = 5
     generations = 200
     mutation_rate = 0.3
 
     # הרצה
-    best_solution = genetic_algorithm_with_preferences(students, num_groups, population_size, generations, mutation_rate)
+    best_solution = genetic_algorithm_with_preferences(students, num_groups, generations, mutation_rate)
 
     # הדפסת הפתרון הטוב ביותר
     print_solution_with_highlights(best_solution)
@@ -72,8 +71,11 @@ def print_solution_with_highlights(solution):
 
 
 if __name__ == "__main__":
-    ranint_path = "RanInt_n060_ss_01.txt"
-    acceptance_path = "acceptance60_1.txt"
+    experiments.run_experiments()
+    """
+    ranint_path = "diversity/RanInt_n240_ss_08.txt"
+    acceptance_path = "acceptance/acceptance240_08.txt"
     students, num_groups = parse_problem_files(ranint_path, acceptance_path)
     #experiments.experiment_ABC_iterations(students, num_groups, 10)
     test_preferences_genetic(students, num_groups)
+    """
