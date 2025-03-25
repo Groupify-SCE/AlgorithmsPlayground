@@ -3,46 +3,7 @@ import statistics
 import heapq
 from typing import List, Tuple
 from utils.student import Student
-
-def initialize_groups(students: List[Student], num_groups: int) -> List[List[Student]]:
-    """
-    הערה מקורית: יוצר קבוצות התחלתיות
-    מה הוספנו? לא ביצענו באופן אקראי לחלוטין, אנחנו מתאימים תלמידים לפי התאמות אישיות
-    """
-    # ניצור את הקבוצות ריקות
-    groups = [[] for _ in range(num_groups)]
-    # נשמור תלמידים שהכנסנו לקבוצה
-    assigned_students = set()
-
-    # נחשב את הגודל המקסימלי של כל קבוצה
-    max_group_size = len(students) // num_groups + (1 if len(students) % num_groups != 0 else 0)
-    
-    random.shuffle(students)
-    # נרוץ על כל תלמיד, ננסה להכניס אותו לקבוצה רק אם יש לו את אחת מהעדפות שלו בקבוצה
-    # ואם הקבוצה לא עברה את הגודל המקסימלי
-    for student in students:
-        for group in groups:
-            if len(group) < max_group_size and any(preference in [s.id for s in group] for preference in student.preferences):
-                group.append(student)
-                assigned_students.add(student.id)
-                break
-
-        # אם התלמיד לא הוכנס לאף קבוצה, נכניס אותו לקבוצה הכי קטנה (אם היא לא מלאה)
-        if student.id not in assigned_students:
-            smallest_group = min(groups, key=len)
-            if len(smallest_group) < max_group_size:
-                smallest_group.append(student)
-                assigned_students.add(student.id)
-
-    # נרוץ על התלמידים שעוד לא הוכנסו לקבוצות, כל אחד מהם בתורו נכניס לקבוצה הקטנה ביותר (אם היא לא מלאה)
-    remaining_students = [student for student in students if student.id not in assigned_students]
-    for student in remaining_students:
-        for group in groups:
-            if len(group) < max_group_size:
-                group.append(student)
-                break
-
-    return groups
+from components.InitialDivision import initialize_groups
 
 def calculate_diversity(groups: List[List[Student]]) -> float:
     """
@@ -53,7 +14,14 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     preference_score = 0
 
     for group in groups:
-        scores = [student.get_score() for student in group]
+        scores = []
+        if group[0].experiment:
+            for i, student1 in enumerate(group):
+                for student2 in group[i+1:]:
+                    scores.append(student1.get_score(student2))
+        else:
+            scores = [student.get_score() for student in group]
+        
         if len(scores) > 1:  # סטיית תקן מוגדרת רק עבור יותר מנתון אחד
             diversity = statistics.stdev(scores)
         else:
@@ -75,13 +43,13 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     total_score = mean_diversity + preference_score - diversity_variance
     return total_score
 
-def generate_initial_population(students: List[Student], num_groups: int, population_size: int) -> List[List[List[Student]]]:
+def generate_initial_population(students: List[Student], num_groups: int) -> List[List[List[Student]]]:
     """
     יוצרת אוכלוסייה ראשונית של פתרונות.
     כל פתרון הוא חלוקה של התלמידים לקבוצות.
     """
     population = []  # רשימת פתרונות
-    for _ in range(population_size):
+    for _ in range(num_groups):
         groups = initialize_groups(students, num_groups)  # חלוקה אקראית
         population.append(groups)
     return population
@@ -172,9 +140,9 @@ def update_population(population: List[List[List[Student]]], fitness_scores: Lis
         population[worst_index] = child
         fitness_scores[worst_index] = child_fitness
 
-def genetic_algorithm_with_preferences(students: List[Student], num_groups: int, population_size: int, generations: int, mutation_rate: float):
+def genetic_algorithm_with_preferences(students: List[Student], num_groups: int, generations: int, mutation_rate: float):
     # יצירת אוכלוסייה ראשונית
-    population = generate_initial_population(students, num_groups, population_size)
+    population = generate_initial_population(students, num_groups)
     fitness_scores = calculate_population_fitness(population)
 
     for generation in range(generations):
@@ -187,10 +155,6 @@ def genetic_algorithm_with_preferences(students: List[Student], num_groups: int,
 
         # עדכון האוכלוסייה
         update_population(population, fitness_scores, mutated_child)
-
-        # הדפסת מידע על הדור
-        #best_fitness = max(fitness_scores)
-        #print(f"Generation {generation + 1}, Best Fitness: {best_fitness}")
 
     # מחזירים את הפתרון הטוב ביותר
     best_index = fitness_scores.index(max(fitness_scores))
