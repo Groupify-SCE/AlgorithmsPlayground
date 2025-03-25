@@ -2,49 +2,10 @@ import random
 import statistics
 from typing import List
 from utils.student import Student
+from components.InitialDivision import initialize_groups
 
 GLOBAL_MAX = []
 GLOBAL_MAX_VAL = float("-inf")
-def initialize_groups(students: List[Student], num_groups: int) -> List[List[Student]]:
-    """
-    הערה מקורית: יוצר קבוצות התחלתיות
-    מה הוספנו? לא ביצענו באופן אקראי לחלוטין, אנחנו מתאימים תלמידים לפי התאמות אישיות
-    """
-    # ניצור את הקבוצות ריקות
-    groups = [[] for _ in range(num_groups)]
-    # נשמור תלמידים שהכנסנו לקבוצה
-    assigned_students = set()
-
-    # נחשב את הגודל המקסימלי של כל קבוצה
-    max_group_size = len(students) // num_groups + (1 if len(students) % num_groups != 0 else 0)
-    
-    random.shuffle(students)
-    # נרוץ על כל תלמיד, ננסה להכניס אותו לקבוצה רק אם יש לו את אחת מהעדפות שלו בקבוצה
-    # ואם הקבוצה לא עברה את הגודל המקסימלי
-    for student in students:
-        for group in groups:
-            if len(group) < max_group_size and any(preference in [s.id for s in group] for preference in student.preferences):
-                group.append(student)
-                assigned_students.add(student.id)
-                break
-
-        # אם התלמיד לא הוכנס לאף קבוצה, נכניס אותו לקבוצה הכי קטנה (אם היא לא מלאה)
-        if student.id not in assigned_students:
-            smallest_group = min(groups, key=len)
-            if len(smallest_group) < max_group_size:
-                smallest_group.append(student)
-                assigned_students.add(student.id)
-
-    # נרוץ על התלמידים שעוד לא הוכנסו לקבוצות, כל אחד מהם בתורו נכניס לקבוצה הקטנה ביותר (אם היא לא מלאה)
-    remaining_students = [student for student in students if student.id not in assigned_students]
-    for student in remaining_students:
-        for group in groups:
-            if len(group) < max_group_size:
-                group.append(student)
-                break
-
-    return groups
-
 def calculate_diversity(groups: List[List[Student]]) -> float:
     """
     הערה מקורית: פונקציית חישוב הגיוון של תוצאה
@@ -54,7 +15,14 @@ def calculate_diversity(groups: List[List[Student]]) -> float:
     preference_score = 0
 
     for group in groups:
-        scores = [student.get_score() for student in group]
+        scores = []
+        if group[0].experiment:
+            for i, student1 in enumerate(group):
+                for student2 in group[i+1:]:
+                    scores.append(student1.get_score(student2))
+        else:
+            scores = [student.get_score() for student in group]
+        
         if len(scores) > 1:  # סטיית תקן מוגדרת רק עבור יותר מנתון אחד
             diversity = statistics.stdev(scores)
         else:
@@ -173,7 +141,6 @@ def abc_algorithm_with_prefrences(students: List[Student], num_groups: int, num_
         if best_fitness > GLOBAL_MAX_VAL:
             GLOBAL_MAX_VAL = best_fitness
             GLOBAL_MAX = solutions[scores.index(GLOBAL_MAX_VAL)]
-        print(f"Iteration {iteration + 1}, Best Fitness: {GLOBAL_MAX_VAL}")
 
     # בסוף, מחזירים את הפתרון הטוב ביותר
     return GLOBAL_MAX
